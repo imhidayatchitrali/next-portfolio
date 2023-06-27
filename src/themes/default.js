@@ -51,5 +51,5 @@ const dark = {
   },
 }
 
-export const lightTheme = {...defaultTheme, ...light};
-export const darkTheme = {...defaultTheme, ...dark};
+export const lightTheme = { ...defaultTheme, ...light };
+export const darkTheme = { ...defaultTheme, ...dark };

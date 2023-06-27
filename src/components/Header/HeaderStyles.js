@@ -5,8 +5,8 @@ export const HeaderContainer = styled.header`
   grid-template-columns: 100px 1fr auto;
   grid-column-gap: 2rem;
   padding: 2rem 1rem;
-  position: ${props => props.sticky ? "sticky" : null };
-  top: ${props => props.sticky ? 0 : null };
+  position: ${props => props.sticky ? "sticky" : null};
+  top: ${props => props.sticky ? 0 : null};
   background-color: ${props => props.theme.colors.bodyBgColor};
   z-index: 21;
 
@@ -17,7 +17,8 @@ export const HeaderContainer = styled.header`
 
 export const Div1 = styled.div`
   display: flex;
-  flex-direction: row;
+  width: 14vw;
+    flex-direction: row;
   align-content: center;
   
   a, span{
